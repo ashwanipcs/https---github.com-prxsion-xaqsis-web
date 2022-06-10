@@ -1,0 +1,600 @@
+[Sun Jun 05 03:40:03.064031 2022] [lbmethod_heartbeat:notice] [pid 1000684:tid 139896402852160] AH02282: No slotmem from mod_heartmonitor
+[Sun Jun 05 03:40:03.065769 2022] [http2:warn] [pid 1000684:tid 139896402852160] AH02951: mod_ssl does not seem to be enabled
+[Sun Jun 05 03:40:03.078475 2022] [mpm_event:notice] [pid 1000684:tid 139896402852160] AH00489: Apache/2.4.37 (centos) mod_wsgi/4.7.1 Python/3.8 mod_perl/2.0.12 Perl/v5.26.3 configured -- resuming normal operations
+[Sun Jun 05 03:40:03.078547 2022] [core:notice] [pid 1000684:tid 139896402852160] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Sun Jun 05 03:40:03.986710 2022] [wsgi:error] [pid 1066122:tid 139896402852160] *****************************************************************************************************************************
+[Sun Jun 05 03:40:03.986776 2022] [wsgi:error] [pid 1066122:tid 139896402852160] **PLATFORM INFORMATION*******************************************************************************************************
+[Sun Jun 05 03:40:03.986794 2022] [wsgi:error] [pid 1066122:tid 139896402852160] *****************************************************************************************************************************
+[Sun Jun 05 03:40:03.986815 2022] [wsgi:error] [pid 1066122:tid 139896402852160] Platform system: Linux
+[Sun Jun 05 03:40:03.986839 2022] [wsgi:error] [pid 1066122:tid 139896402852160] Platform release: 4.18.0-240.1.1.el8_3.x86_64
+[Sun Jun 05 03:40:03.986856 2022] [wsgi:error] [pid 1066122:tid 139896402852160] Platform version: #1 SMP Thu Nov 19 17:20:08 UTC 2020
+[Sun Jun 05 03:40:03.986870 2022] [wsgi:error] [pid 1066122:tid 139896402852160] *****************************************************************************************************************************
+[Sun Jun 05 03:40:03.986885 2022] [wsgi:error] [pid 1066122:tid 139896402852160] **REX ENVIRONMENT VARIABLES**************************************************************************************************
+[Sun Jun 05 03:40:03.986899 2022] [wsgi:error] [pid 1066122:tid 139896402852160] *****************************************************************************************************************************
+[Sun Jun 05 03:40:03.986915 2022] [wsgi:error] [pid 1066122:tid 139896402852160] APP_DIR:/var/www/rexapi
+[Sun Jun 05 03:40:03.986931 2022] [wsgi:error] [pid 1066122:tid 139896402852160] APP_LOG_FILE:/var/www/rexapi//log//rex.log
+[Sun Jun 05 03:40:03.986947 2022] [wsgi:error] [pid 1066122:tid 139896402852160] EMAIL_TEMPLATE_DIR:/var/www/rexapi/rexapi/templates
+[Sun Jun 05 03:40:03.986966 2022] [wsgi:error] [pid 1066122:tid 139896402852160] APP_LOG_LEVEL:10
+[Sun Jun 05 03:40:03.986982 2022] [wsgi:error] [pid 1066122:tid 139896402852160] CELERY_BROKER_URL:redis://:6379/0
+[Sun Jun 05 03:40:03.986998 2022] [wsgi:error] [pid 1066122:tid 139896402852160] CELERY_RESULT_BACKEND:redis://localhost:6379/0
+[Sun Jun 05 03:40:03.987013 2022] [wsgi:error] [pid 1066122:tid 139896402852160] MAIL_PASSWORD:@info2019
+[Sun Jun 05 03:40:03.987031 2022] [wsgi:error] [pid 1066122:tid 139896402852160] MAIL_PORT:3535
+[Sun Jun 05 03:40:03.987047 2022] [wsgi:error] [pid 1066122:tid 139896402852160] MAIL_SERVER:smtpout.secureserver.net
+[Sun Jun 05 03:40:03.987068 2022] [wsgi:error] [pid 1066122:tid 139896402852160] MAIL_USE_TLS:True
+[Sun Jun 05 03:40:03.987086 2022] [wsgi:error] [pid 1066122:tid 139896402852160] MAIL_USE_SSL:False
+[Sun Jun 05 03:40:03.987102 2022] [wsgi:error] [pid 1066122:tid 139896402852160] MAIL_USERNAME:info@prxsion.com
+[Sun Jun 05 03:40:03.987117 2022] [wsgi:error] [pid 1066122:tid 139896402852160] MAIL_PASSWORD:@info2019
+[Sun Jun 05 03:40:03.987133 2022] [wsgi:error] [pid 1066122:tid 139896402852160] SQLALCHEMY_DATABASE_URI:postgresql://postgres:\\postgres@localhost:5432/rexapi
+[Sun Jun 05 03:40:03.987151 2022] [wsgi:error] [pid 1066122:tid 139896402852160] RESPONSE_CHANNEL_API:False
+[Sun Jun 05 03:40:03.987167 2022] [wsgi:error] [pid 1066122:tid 139896402852160] RESPONSE_CHANNEL_EMAIL:True
+[Sun Jun 05 03:40:03.987183 2022] [wsgi:error] [pid 1066122:tid 139896402852160] RESPONSE_CHANNEL_DASHBOARD:True
+[Sun Jun 05 03:40:03.987245 2022] [wsgi:error] [pid 1066122:tid 139896402852160] ******************************************************************************************
+[Sun Jun 05 03:40:04.470300 2022] [wsgi:error] [pid 1066123:tid 139896402852160] *****************************************************************************************************************************
+[Sun Jun 05 03:40:04.470425 2022] [wsgi:error] [pid 1066123:tid 139896402852160] * XAQSIS ENVIRONMENT VARIABLES **********************************************************************************************
+[Sun Jun 05 03:40:04.470461 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Platform system      : Linux
+[Sun Jun 05 03:40:04.470509 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Platform release     : 4.18.0-240.1.1.el8_3.x86_64
+[Sun Jun 05 03:40:04.470540 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Platform version     : #1 SMP Thu Nov 19 17:20:08 UTC 2020
+[Sun Jun 05 03:40:04.470692 2022] [wsgi:error] [pid 1066123:tid 139896402852160] * EMAIL *********************************************************************************************************************
+[Sun Jun 05 03:40:04.470747 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Email Template Directory: /var/www/xaqsis/templates
+[Sun Jun 05 03:40:04.470778 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Email Signature 1    : XAQSIS
+[Sun Jun 05 03:40:04.470804 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Email Signature 2    : 
+[Sun Jun 05 03:40:04.470827 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Email Signature 3    : Powered by PRXSION Technologies
+[Sun Jun 05 03:40:04.470848 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Mail Server          : smtp.mail.yahoo.com
+[Sun Jun 05 03:40:04.470870 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Mail Server Port     : 465
+[Sun Jun 05 03:40:04.470895 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Use TLS              : False
+[Sun Jun 05 03:40:04.470915 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Use SSL              : True
+[Sun Jun 05 03:40:04.470935 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Mail Username        : xaqsis@yahoo.com
+[Sun Jun 05 03:40:04.470954 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Mail Password        : prxsiondev@2022
+[Sun Jun 05 03:40:04.470985 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Sender Email         : ('XAQSIS', 'xaqsis@yahoo.com')
+[Sun Jun 05 03:40:04.471004 2022] [wsgi:error] [pid 1066123:tid 139896402852160] * ORGANIZATION **************************************************************************************************************
+[Sun Jun 05 03:40:04.471024 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Short Name           : PRXSION
+[Sun Jun 05 03:40:04.471043 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Full Name            : PRXSION TECHNOLOGIES PVT. LTD
+[Sun Jun 05 03:40:04.471064 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Address Line 1       : H402, PALACIA
+[Sun Jun 05 03:40:04.471083 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Address Line 2       : WAGHBIL, THANE - (W)
+[Sun Jun 05 03:40:04.471103 2022] [wsgi:error] [pid 1066123:tid 139896402852160] City                 : THANE
+[Sun Jun 05 03:40:04.471123 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Pincode              : 400615
+[Sun Jun 05 03:40:04.471143 2022] [wsgi:error] [pid 1066123:tid 139896402852160] State                : Maharashtra
+[Sun Jun 05 03:40:04.471162 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Country              : INDIA
+[Sun Jun 05 03:40:04.471181 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Phone                : +91 99303 00053
+[Sun Jun 05 03:40:04.471200 2022] [wsgi:error] [pid 1066123:tid 139896402852160] GST                  : 43AAAAAA0000A1Z5
+[Sun Jun 05 03:40:04.471219 2022] [wsgi:error] [pid 1066123:tid 139896402852160] PAN                  : AAA0000A23
+[Sun Jun 05 03:40:04.471236 2022] [wsgi:error] [pid 1066123:tid 139896402852160] *****************************************************************************************************************************
+[Sun Jun 05 03:40:04.799653 2022] [wsgi:error] [pid 1066123:tid 139896402852160] /var/www/xaqsis/venv/lib64/python3.8/site-packages/flask_sqlalchemy/__init__.py:872: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+[Sun Jun 05 03:40:04.799711 2022] [wsgi:error] [pid 1066123:tid 139896402852160]   warnings.warn(FSADeprecationWarning(
+[Sun Jun 05 03:40:06.362920 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Matplotlib created a temporary config/cache directory at /tmp/matplotlib-gcue3_3f because the default path (/usr/share/httpd/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[Sun Jun 05 03:40:07.357913 2022] [wsgi:error] [pid 1066122:tid 139896402852160] Matplotlib created a temporary config/cache directory at /tmp/matplotlib-tf48mgca because the default path (/usr/share/httpd/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[Sun Jun 05 03:40:11.534596 2022] [wsgi:error] [pid 1066122:tid 139896402852160] WSGI Started...App created.
+[Sun Jun 05 03:40:12.995417 2022] [wsgi:error] [pid 1066123:tid 139896402852160] Moduled loaded successfully, returning app.
+[Sun Jun 05 05:08:02.175972 2022] [core:error] [pid 1066125:tid 139895448258304] [client 193.106.191.48:44854] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Jun 05 08:44:02.142658 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42260] no_of_credits 0
+[Sun Jun 05 08:44:02.142837 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42260] license_summary {'trial_credits': 50, 'premium_credits': 0, 'credit_used': 0, 'credit_balance': 50}
+[Sun Jun 05 08:44:02.142930 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42260] {'trial_credits': 50, 'premium_credits': 0, 'credit_used': 0, 'credit_balance': 50}
+[Sun Jun 05 08:44:02.238767 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42262] Audit POST Log  *******
+[Sun Jun 05 08:44:02.238875 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42262] {'account_uuid': 'd686606a-8340-4586-aa89-007bdcb0f9a8', 'login': 1654398842, 'logout': 0, 'source_metadata': {'useragent': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36', 'ip': '106.210.38.55'}, 'modified_by': 'd686606a-8340-4586-aa89-007bdcb0f9a8'}
+[Sun Jun 05 08:44:23.479965 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42264] [2022-06-05 08:44:23,479] WARNING in project: {'source': 'project', 'message': 'Sorry! we could not find a project, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 08:44:32.312549 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42266] [2022-06-05 08:44:32,312] WARNING in project: {'source': 'project', 'message': 'Sorry! we could not find a project, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 08:44:45.070918 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42268] [2022-06-05 08:44:45,070] WARNING in project: {'source': 'project', 'message': 'Sorry! we could not find a project, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 08:44:55.529674 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42270] [2022-06-05 08:44:55,529] WARNING in recipient: {'source': 'recipient', 'message': 'Sorry! we could not find a recipient group, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 08:44:55.548193 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42272] [2022-06-05 08:44:55,547] WARNING in project: {'source': 'project', 'message': 'Sorry! we could not find a project, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 08:45:06.525707 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42278] [2022-06-05 08:45:06,525] WARNING in simulation: {'source': 'simulation', 'message': 'Sorry! we could not find a simulation, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 08:45:06.545440 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42280] [2022-06-05 08:45:06,545] WARNING in project: {'source': 'project', 'message': 'Sorry! we could not find a project, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 08:45:22.544677 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42284] d686606a-8340-4586-aa89-007bdcb0f9a8
+[Sun Jun 05 08:45:22.546040 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42284] [2022-06-05 08:45:22,545] ERROR in account: {'source': 'account', 'message': 'Sorry! something was not right with the inputs you provided', 'code': 1007, 'response': 500}
+[Sun Jun 05 08:45:29.346890 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42290] no_of_credits 0
+[Sun Jun 05 08:45:29.346998 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42290] license_summary {'trial_credits': 50, 'premium_credits': 0, 'credit_used': 0, 'credit_balance': 50}
+[Sun Jun 05 08:45:37.555198 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42292] [2022-06-05 08:45:37,554] WARNING in invoice: {'source': 'xaqsis_invoice', 'message': 'Sorry! we could not find a invoice, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 08:55:29.366893 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42296] no_of_credits 0
+[Sun Jun 05 08:55:29.367077 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42296] license_summary {'trial_credits': 50, 'premium_credits': 0, 'credit_used': 0, 'credit_balance': 50}
+[Sun Jun 05 08:55:44.013779 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42300] no_of_credits 0
+[Sun Jun 05 08:55:44.013959 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42300] license_summary {'trial_credits': 50, 'premium_credits': 0, 'credit_used': 0, 'credit_balance': 50}
+[Sun Jun 05 08:56:48.925164 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42304] no_of_credits 0
+[Sun Jun 05 08:56:48.925355 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42304] license_summary {'trial_credits': 50, 'premium_credits': 0, 'credit_used': 0, 'credit_balance': 50}
+[Sun Jun 05 08:56:59.258203 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42308] no_of_credits 0
+[Sun Jun 05 08:56:59.258343 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42308] license_summary {'trial_credits': 50, 'premium_credits': 0, 'credit_used': 0, 'credit_balance': 50}
+[Sun Jun 05 08:57:52.620100 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42312] no_of_credits 0
+[Sun Jun 05 08:57:52.620278 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42312] license_summary {'trial_credits': 50, 'premium_credits': 0, 'credit_used': 0, 'credit_balance': 50}
+[Sun Jun 05 08:58:04.315020 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42314] [2022-06-05 08:58:04,314] WARNING in invoice: {'source': 'xaqsis_invoice', 'message': 'Sorry! we could not find a invoice, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:04:14.923689 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42316] [2022-06-05 09:04:14,923] WARNING in invoice: {'source': 'xaqsis_invoice', 'message': 'Sorry! we could not find a invoice, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:04:54.544554 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42318] [2022-06-05 09:04:54,544] WARNING in invoice: {'source': 'xaqsis_invoice', 'message': 'Sorry! we could not find a invoice, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:06:09.129996 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42320] [2022-06-05 09:06:09,129] WARNING in invoice: {'source': 'xaqsis_invoice', 'message': 'Sorry! we could not find a invoice, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:06:15.214850 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42322] [2022-06-05 09:06:15,214] WARNING in invoice: {'source': 'xaqsis_invoice', 'message': 'Sorry! we could not find a invoice, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:06:50.172332 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42324] [2022-06-05 09:06:50,172] WARNING in invoice: {'source': 'xaqsis_invoice', 'message': 'Sorry! we could not find a invoice, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:09:48.316836 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42394] [2022-06-05 09:09:48,316] WARNING in invoice: {'source': 'xaqsis_invoice', 'message': 'Sorry! we could not find a invoice, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:09:48.760205 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42398] no_of_credits 0
+[Sun Jun 05 09:09:48.760354 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42398] license_summary {'trial_credits': 50, 'premium_credits': 0, 'credit_used': 0, 'credit_balance': 50}
+[Sun Jun 05 09:09:55.788710 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42400] [2022-06-05 09:09:55,787] WARNING in invoice: {'source': 'xaqsis_invoice', 'message': 'Sorry! we could not find a invoice, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:09:56.179752 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42404] no_of_credits 0
+[Sun Jun 05 09:09:56.179861 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42404] license_summary {'trial_credits': 50, 'premium_credits': 0, 'credit_used': 0, 'credit_balance': 50}
+[Sun Jun 05 09:10:16.994379 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42406] [2022-06-05 09:10:16,993] WARNING in event: {'source': 'event', 'message': 'Sorry! we could not find an event, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:10:23.078395 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42408] [2022-06-05 09:10:23,077] WARNING in project_event: {'source': 'project_event', 'message': 'Sorry! we could not find a project event, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:10:23.099396 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42410] [2022-06-05 09:10:23,099] WARNING in project: {'source': 'project', 'message': 'Sorry! we could not find a project, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:10:23.120292 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42412] [2022-06-05 09:10:23,119] WARNING in event: {'source': 'event', 'message': 'Sorry! we could not find an event, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:10:30.009871 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42418] [2022-06-05 09:10:30,009] WARNING in invitation: {'source': 'invitation', 'message': 'Sorry! we could not find a invitation, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:10:38.809247 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42420] Audit PUT Log  *******
+[Sun Jun 05 09:10:38.809356 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42420] {'login': 1654398842, 'logout': 1654400438, 'modified_by': 'd686606a-8340-4586-aa89-007bdcb0f9a8'}
+[Sun Jun 05 09:10:38.809391 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42420] {'login': 1654398842, 'logout': 1654400438, 'modified_by': 'd686606a-8340-4586-aa89-007bdcb0f9a8'}
+[Sun Jun 05 09:10:56.427361 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42422] no_of_credits 0
+[Sun Jun 05 09:10:56.427488 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42422] license_summary {'trial_credits': 50, 'premium_credits': 0, 'credit_used': 0, 'credit_balance': 50}
+[Sun Jun 05 09:10:56.427596 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42422] {'trial_credits': 50, 'premium_credits': 0, 'credit_used': 0, 'credit_balance': 50}
+[Sun Jun 05 09:10:56.499675 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42424] Audit POST Log  *******
+[Sun Jun 05 09:10:56.499773 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42424] {'account_uuid': 'd686606a-8340-4586-aa89-007bdcb0f9a8', 'login': 1654400456, 'logout': 0, 'source_metadata': {'useragent': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36', 'ip': '106.210.38.55'}, 'modified_by': 'd686606a-8340-4586-aa89-007bdcb0f9a8'}
+[Sun Jun 05 09:11:07.747953 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42430] [2022-06-05 09:11:07,747] WARNING in invitation: {'source': 'invitation', 'message': 'Sorry! we could not find a invitation, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:11:45.397277 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42438] [2022-06-05 09:11:45,397] WARNING in project: {'source': 'project', 'message': 'Sorry! we could not find a project, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:14:37.833227 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42444] {'uuid': '639be280-8347-4077-85ca-740cd61c5da9', 'name': 'AVBS Properties IN Ghaziabad', 'project_start_date': 1655424000, 'is_active': True, 'configs': {'cost_trials': '100', 'mcs_include_critical_path': True, 'mcs_trials': '10000'}, 'modified_by': '4a0ef134-bc6e-4961-b97b-35d37300cd40'}
+[Sun Jun 05 09:15:09.781725 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42448] {'uuid': '639be280-8347-4077-85ca-740cd61c5da9', 'name': 'AVBS Properties IN Ghaziabad', 'project_start_date': 1655856000, 'is_active': True, 'configs': {'cost_trials': '1000', 'mcs_include_critical_path': True, 'mcs_trials': '100000'}, 'modified_by': '4a0ef134-bc6e-4961-b97b-35d37300cd40'}
+[Sun Jun 05 09:15:35.476352 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42456] [{'modified_by': '40698900-433a-4fca-9103-b11bd3ee1cbb', 'predecessors': [], 'is_active': True, 'mostlikely_cost': Decimal('0.00'), 'pessimistic_cost': Decimal('0.00'), 'activity_uuid': '0b111280-3872-4ad9-a4df-b78b96bdbb92', 'uuid': '4bab5fac-c330-43a1-8b76-09e55f724f5b', 'activity': '*', 'optimistic_cost': Decimal('0.00'), 'mostlikely_duration': 0, 'activity_index': 0, 'modified_on': 1654360805075, 'optimistic_duration': 0, 'project_uuid': '639be280-8347-4077-85ca-740cd61c5da9', 'pessimistic_duration': 0, 'org_uuid': '4a0ef134-bc6e-4961-b97b-35d37300cd40'}]
+[Sun Jun 05 09:15:35.500638 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42456] in update cpm
+[Sun Jun 05 09:15:35.578688 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42456] {'*': (27.0, 18.0)}
+[Sun Jun 05 09:15:35.887118 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42456] The current critical path is: ['*']
+[Sun Jun 05 09:15:35.887215 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42456] The current project duration is: 0.0
+[Sun Jun 05 09:15:35.887339 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42456] The current cirical edges are : []
+[Sun Jun 05 09:16:11.030870 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42458] [2022-06-05 09:16:11,030] ERROR in project_activity: {'source': 'project_activity', 'message': 'Sorry! something was not right with the inputs you provided', 'code': 1007, 'response': 500}
+[Sun Jun 05 09:16:11.609948 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42464] [{'modified_by': '40698900-433a-4fca-9103-b11bd3ee1cbb', 'predecessors': ['*'], 'is_active': True, 'mostlikely_cost': Decimal('0.00'), 'pessimistic_cost': Decimal('0.00'), 'activity_uuid': '0b111280-3872-4ad9-a4df-b78b96bdbb92', 'uuid': '4bab5fac-c330-43a1-8b76-09e55f724f5b', 'activity': '*', 'optimistic_cost': Decimal('0.00'), 'mostlikely_duration': 0, 'activity_index': 0, 'modified_on': 1654360805075, 'optimistic_duration': 0, 'project_uuid': '639be280-8347-4077-85ca-740cd61c5da9', 'pessimistic_duration': 0, 'org_uuid': '4a0ef134-bc6e-4961-b97b-35d37300cd40'}]
+[Sun Jun 05 09:16:11.631099 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42464] in update cpm
+[Sun Jun 05 09:16:11.683727 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42464] {'*': (27.0, 18.0)}
+[Sun Jun 05 09:16:11.683912 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42464] Network must not contain any cycles.
+[Sun Jun 05 09:16:11.685657 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42464] Traceback (most recent call last):
+[Sun Jun 05 09:16:11.685693 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42464]   File "/var/www/xaqsis/xaqsis/manager/corona/toolkit.py", line 384, in calculate_project_schedule
+[Sun Jun 05 09:16:11.685701 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42464]     cp = calculate_critical_path(cp_data_dict)
+[Sun Jun 05 09:16:11.685708 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42464]   File "/var/www/xaqsis/xaqsis/manager/xaqsis/cpm.py", line 99, in calculate_critical_path
+[Sun Jun 05 09:16:11.685715 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42464]     cpm.update()
+[Sun Jun 05 09:16:11.685722 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42464]   File "/var/www/xaqsis/xaqsis/manager/xaqsis/cpm.py", line 37, in update
+[Sun Jun 05 09:16:11.685728 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42464]     self.P.update_all()
+[Sun Jun 05 09:16:11.685734 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42464]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/criticalpath/criticalpath.py", line 337, in update_all
+[Sun Jun 05 09:16:11.685741 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42464]     assert self.is_acyclic(), 'Network must not contain any cycles.'
+[Sun Jun 05 09:16:11.685747 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42464] AssertionError: Network must not contain any cycles.
+[Sun Jun 05 09:16:11.685769 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42464] 
+[Sun Jun 05 09:16:11.685885 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42464] 'NoneType' object has no attribute 'to_dict'
+[Sun Jun 05 09:16:27.111007 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42468] [2022-06-05 09:16:27,110] WARNING in cost_summary: {'source': 'cost_summary', 'message': 'Sorry! we could not find a cost summary, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:16:27.170372 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42470] [2022-06-05 09:16:27,169] WARNING in xview: {'source': 'xview', 'message': 'Sorry! we could not find a xview, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:16:27.233500 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42472] [{'modified_by': '40698900-433a-4fca-9103-b11bd3ee1cbb', 'predecessors': ['*'], 'is_active': True, 'mostlikely_cost': Decimal('0.00'), 'pessimistic_cost': Decimal('0.00'), 'activity_uuid': '0b111280-3872-4ad9-a4df-b78b96bdbb92', 'uuid': '4bab5fac-c330-43a1-8b76-09e55f724f5b', 'activity': '*', 'optimistic_cost': Decimal('0.00'), 'mostlikely_duration': 0, 'activity_index': 0, 'modified_on': 1654360805075, 'optimistic_duration': 0, 'project_uuid': '639be280-8347-4077-85ca-740cd61c5da9', 'pessimistic_duration': 0, 'org_uuid': '4a0ef134-bc6e-4961-b97b-35d37300cd40'}]
+[Sun Jun 05 09:16:27.246210 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42472] in update cpm
+[Sun Jun 05 09:16:27.285102 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42472] {'*': (27.0, 18.0)}
+[Sun Jun 05 09:16:27.285206 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42472] Network must not contain any cycles.
+[Sun Jun 05 09:16:27.285649 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42472] Traceback (most recent call last):
+[Sun Jun 05 09:16:27.285685 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42472]   File "/var/www/xaqsis/xaqsis/manager/corona/toolkit.py", line 384, in calculate_project_schedule
+[Sun Jun 05 09:16:27.285696 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42472]     cp = calculate_critical_path(cp_data_dict)
+[Sun Jun 05 09:16:27.285704 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42472]   File "/var/www/xaqsis/xaqsis/manager/xaqsis/cpm.py", line 99, in calculate_critical_path
+[Sun Jun 05 09:16:27.285712 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42472]     cpm.update()
+[Sun Jun 05 09:16:27.285717 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42472]   File "/var/www/xaqsis/xaqsis/manager/xaqsis/cpm.py", line 37, in update
+[Sun Jun 05 09:16:27.285722 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42472]     self.P.update_all()
+[Sun Jun 05 09:16:27.285727 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42472]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/criticalpath/criticalpath.py", line 337, in update_all
+[Sun Jun 05 09:16:27.285732 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42472]     assert self.is_acyclic(), 'Network must not contain any cycles.'
+[Sun Jun 05 09:16:27.285736 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42472] AssertionError: Network must not contain any cycles.
+[Sun Jun 05 09:16:27.285760 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42472] 
+[Sun Jun 05 09:16:27.285895 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42472] 'NoneType' object has no attribute 'to_dict'
+[Sun Jun 05 09:16:27.317984 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42474] [2022-06-05 09:16:27,317] WARNING in simulation: {'source': 'simulation', 'message': 'Sorry! we could not find a simulation, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:16:43.743739 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42480] [2022-06-05 09:16:43,743] WARNING in simulation: {'source': 'simulation', 'message': 'Sorry! we could not find a simulation, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:16:49.500446 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42484] [{'modified_by': '40698900-433a-4fca-9103-b11bd3ee1cbb', 'predecessors': ['*'], 'is_active': True, 'mostlikely_cost': Decimal('0.00'), 'pessimistic_cost': Decimal('0.00'), 'activity_uuid': '0b111280-3872-4ad9-a4df-b78b96bdbb92', 'uuid': '4bab5fac-c330-43a1-8b76-09e55f724f5b', 'activity': '*', 'optimistic_cost': Decimal('0.00'), 'mostlikely_duration': 0, 'activity_index': 0, 'modified_on': 1654360805075, 'optimistic_duration': 0, 'project_uuid': '639be280-8347-4077-85ca-740cd61c5da9', 'pessimistic_duration': 0, 'org_uuid': '4a0ef134-bc6e-4961-b97b-35d37300cd40'}]
+[Sun Jun 05 09:16:49.519148 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42484] in update cpm
+[Sun Jun 05 09:16:49.580858 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42484] {'*': (27.0, 18.0)}
+[Sun Jun 05 09:16:49.580983 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42484] Network must not contain any cycles.
+[Sun Jun 05 09:16:49.581315 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42484] Traceback (most recent call last):
+[Sun Jun 05 09:16:49.581334 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42484]   File "/var/www/xaqsis/xaqsis/manager/corona/toolkit.py", line 384, in calculate_project_schedule
+[Sun Jun 05 09:16:49.581342 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42484]     cp = calculate_critical_path(cp_data_dict)
+[Sun Jun 05 09:16:49.581348 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42484]   File "/var/www/xaqsis/xaqsis/manager/xaqsis/cpm.py", line 99, in calculate_critical_path
+[Sun Jun 05 09:16:49.581355 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42484]     cpm.update()
+[Sun Jun 05 09:16:49.581362 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42484]   File "/var/www/xaqsis/xaqsis/manager/xaqsis/cpm.py", line 37, in update
+[Sun Jun 05 09:16:49.581368 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42484]     self.P.update_all()
+[Sun Jun 05 09:16:49.581375 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42484]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/criticalpath/criticalpath.py", line 337, in update_all
+[Sun Jun 05 09:16:49.581382 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42484]     assert self.is_acyclic(), 'Network must not contain any cycles.'
+[Sun Jun 05 09:16:49.581388 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42484] AssertionError: Network must not contain any cycles.
+[Sun Jun 05 09:16:49.581407 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42484] 
+[Sun Jun 05 09:16:49.581514 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42484] 'NoneType' object has no attribute 'to_dict'
+[Sun Jun 05 09:16:49.607203 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42486] [2022-06-05 09:16:49,606] WARNING in simulation: {'source': 'simulation', 'message': 'Sorry! we could not find a simulation, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:16:49.636773 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42488] (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type uuid: "0"
+[Sun Jun 05 09:16:49.636840 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42488] LINE 3: ...077-85ca-740cd61c5da9' AND mcs_summary.simulation_uuid = '0'
+[Sun Jun 05 09:16:49.636854 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42488]                                                                     ^
+[Sun Jun 05 09:16:49.636865 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42488] 
+[Sun Jun 05 09:16:49.636876 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42488] [SQL: SELECT mcs_summary.uuid AS mcs_summary_uuid, mcs_summary.org_uuid AS mcs_summary_org_uuid, mcs_summary.project_uuid AS mcs_summary_project_uuid, mcs_summary.simulation_uuid AS mcs_summary_simulation_uuid, mcs_summary.summary AS mcs_summary_summary, mcs_summary.is_active AS mcs_summary_is_active, mcs_summary.modified_on AS mcs_summary_modified_on, mcs_summary.modified_by AS mcs_summary_modified_by 
+[Sun Jun 05 09:16:49.636906 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42488] FROM mcs_summary 
+[Sun Jun 05 09:16:49.636916 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42488] WHERE mcs_summary.org_uuid = %(org_uuid_1)s AND mcs_summary.project_uuid = %(project_uuid_1)s AND mcs_summary.simulation_uuid = %(simulation_uuid_1)s]
+[Sun Jun 05 09:16:49.636927 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42488] [parameters: {'org_uuid_1': '4a0ef134-bc6e-4961-b97b-35d37300cd40', 'project_uuid_1': '639be280-8347-4077-85ca-740cd61c5da9', 'simulation_uuid_1': '0'}]
+[Sun Jun 05 09:16:49.636944 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42488] (Background on this error at: https://sqlalche.me/e/14/9h9h)
+[Sun Jun 05 09:16:49.636986 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42488] 
+[Sun Jun 05 09:17:06.092109 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42492] [2022-06-05 09:17:06,091] WARNING in simulation: {'source': 'simulation', 'message': 'Sorry! we could not find a simulation, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:17:11.752531 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42494] [2022-06-05 09:17:11,752] WARNING in project_event: {'source': 'project_event', 'message': 'Sorry! we could not find a project event, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:17:11.813610 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42498] [2022-06-05 09:17:11,813] WARNING in event: {'source': 'event', 'message': 'Sorry! we could not find an event, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 09:40:18.092319 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42532] {'uuid': '639be280-8347-4077-85ca-740cd61c5da9', 'name': 'AVBS Properties IN Ghaziabad', 'project_start_date': 1655424000, 'is_active': True, 'configs': {'cost_trials': '1000', 'mcs_include_critical_path': True, 'mcs_trials': '100000'}, 'modified_by': '4a0ef134-bc6e-4961-b97b-35d37300cd40'}
+[Sun Jun 05 17:05:33.020915 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42678] no_of_credits 0
+[Sun Jun 05 17:05:33.021157 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42678] license_summary {'trial_credits': 50, 'premium_credits': 0, 'credit_used': 0, 'credit_balance': 50}
+[Sun Jun 05 17:05:33.021286 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42678] {'trial_credits': 50, 'premium_credits': 0, 'credit_used': 0, 'credit_balance': 50}
+[Sun Jun 05 17:05:33.082018 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42680] Audit POST Log  *******
+[Sun Jun 05 17:05:33.082158 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42680] {'account_uuid': 'd686606a-8340-4586-aa89-007bdcb0f9a8', 'login': 1654428933, 'logout': 0, 'source_metadata': {'useragent': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36', 'ip': '106.210.40.154'}, 'modified_by': 'd686606a-8340-4586-aa89-007bdcb0f9a8'}
+[Sun Jun 05 17:27:45.007761 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42696] {'uuid': '6644f777-fed1-4ef7-acb0-ec088c6bcffa', 'name': 'DLF Noida City', 'project_start_date': 1655769600, 'is_active': True, 'configs': {'cost_trials': '1000', 'mcs_include_critical_path': True, 'mcs_trials': '100000'}, 'modified_by': '4a0ef134-bc6e-4961-b97b-35d37300cd40'}
+[Sun Jun 05 17:28:17.138214 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42700] [2022-06-05 17:28:17,137] WARNING in recipient: {'source': 'recipient', 'message': 'Sorry! we could not find a recipient group, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 17:28:56.705671 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704] [2022-06-05 17:28:56,685] ERROR in app: Exception on /api/4a0ef134-bc6e-4961-b97b-35d37300cd40/recipient [POST]
+[Sun Jun 05 17:28:56.705752 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704] Traceback (most recent call last):
+[Sun Jun 05 17:28:56.705762 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1802, in _execute_context
+[Sun Jun 05 17:28:56.705770 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     self.dialect.do_execute(
+[Sun Jun 05 17:28:56.705777 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+[Sun Jun 05 17:28:56.705784 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     cursor.execute(statement, parameters)
+[Sun Jun 05 17:28:56.705792 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704] psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "recipient_email_key"
+[Sun Jun 05 17:28:56.705799 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704] DETAIL:  Key (email)=(ashwani7jul@gmail.com) already exists.
+[Sun Jun 05 17:28:56.705806 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704] 
+[Sun Jun 05 17:28:56.705812 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704] 
+[Sun Jun 05 17:28:56.705818 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704] The above exception was the direct cause of the following exception:
+[Sun Jun 05 17:28:56.705824 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704] 
+[Sun Jun 05 17:28:56.705831 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704] Traceback (most recent call last):
+[Sun Jun 05 17:28:56.705838 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+[Sun Jun 05 17:28:56.705845 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     rv = self.dispatch_request()
+[Sun Jun 05 17:28:56.705852 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+[Sun Jun 05 17:28:56.705859 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     return self.view_functions[rule.endpoint](**req.view_args)
+[Sun Jun 05 17:28:56.705866 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask_restful/__init__.py", line 467, in wrapper
+[Sun Jun 05 17:28:56.705873 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     resp = resource(*args, **kwargs)
+[Sun Jun 05 17:28:56.705880 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask/views.py", line 89, in view
+[Sun Jun 05 17:28:56.705887 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     return self.dispatch_request(*args, **kwargs)
+[Sun Jun 05 17:28:56.705894 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+[Sun Jun 05 17:28:56.705902 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     resp = meth(*args, **kwargs)
+[Sun Jun 05 17:28:56.705927 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/xaqsis/manager/xaqsis/auth_manager.py", line 131, in decorated
+[Sun Jun 05 17:28:56.705935 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     return f(*args, **kwargs)
+[Sun Jun 05 17:28:56.705942 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/xaqsis/api/resources/recipient.py", line 91, in post
+[Sun Jun 05 17:28:56.705948 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     db.session.commit()
+[Sun Jun 05 17:28:56.705955 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "<string>", line 2, in commit
+[Sun Jun 05 17:28:56.705961 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 1431, in commit
+[Sun Jun 05 17:28:56.705968 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     self._transaction.commit(_to_root=self.future)
+[Sun Jun 05 17:28:56.705975 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+[Sun Jun 05 17:28:56.705982 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     self._prepare_impl()
+[Sun Jun 05 17:28:56.705989 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+[Sun Jun 05 17:28:56.705996 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     self.session.flush()
+[Sun Jun 05 17:28:56.706002 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 3363, in flush
+[Sun Jun 05 17:28:56.706009 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     self._flush(objects)
+[Sun Jun 05 17:28:56.706016 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 3503, in _flush
+[Sun Jun 05 17:28:56.706023 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     transaction.rollback(_capture_exception=True)
+[Sun Jun 05 17:28:56.706030 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+[Sun Jun 05 17:28:56.706057 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     compat.raise_(
+[Sun Jun 05 17:28:56.706065 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+[Sun Jun 05 17:28:56.706073 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     raise exception
+[Sun Jun 05 17:28:56.706079 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 3463, in _flush
+[Sun Jun 05 17:28:56.706086 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     flush_context.execute()
+[Sun Jun 05 17:28:56.706092 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+[Sun Jun 05 17:28:56.706099 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     rec.execute(self)
+[Sun Jun 05 17:28:56.706114 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+[Sun Jun 05 17:28:56.706121 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     util.preloaded.orm_persistence.save_obj(
+[Sun Jun 05 17:28:56.706128 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 244, in save_obj
+[Sun Jun 05 17:28:56.706135 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     _emit_insert_statements(
+[Sun Jun 05 17:28:56.706141 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1221, in _emit_insert_statements
+[Sun Jun 05 17:28:56.706149 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     result = connection._execute_20(
+[Sun Jun 05 17:28:56.706156 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1614, in _execute_20
+[Sun Jun 05 17:28:56.706163 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     return meth(self, args_10style, kwargs_10style, execution_options)
+[Sun Jun 05 17:28:56.706170 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+[Sun Jun 05 17:28:56.706178 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     return connection._execute_clauseelement(
+[Sun Jun 05 17:28:56.706184 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1481, in _execute_clauseelement
+[Sun Jun 05 17:28:56.706192 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     ret = self._execute_context(
+[Sun Jun 05 17:28:56.706199 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1845, in _execute_context
+[Sun Jun 05 17:28:56.706206 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     self._handle_dbapi_exception(
+[Sun Jun 05 17:28:56.706213 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 2026, in _handle_dbapi_exception
+[Sun Jun 05 17:28:56.706219 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     util.raise_(
+[Sun Jun 05 17:28:56.706226 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+[Sun Jun 05 17:28:56.706233 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     raise exception
+[Sun Jun 05 17:28:56.706240 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1802, in _execute_context
+[Sun Jun 05 17:28:56.706246 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     self.dialect.do_execute(
+[Sun Jun 05 17:28:56.706252 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+[Sun Jun 05 17:28:56.706259 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704]     cursor.execute(statement, parameters)
+[Sun Jun 05 17:28:56.706273 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704] sqlalchemy.exc.IntegrityError: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "recipient_email_key"
+[Sun Jun 05 17:28:56.706281 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704] DETAIL:  Key (email)=(ashwani7jul@gmail.com) already exists.
+[Sun Jun 05 17:28:56.706287 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704] 
+[Sun Jun 05 17:28:56.706294 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704] [SQL: INSERT INTO recipient (uuid, org_uuid, project_uuid, name, email, is_active, modified_on, modified_by) VALUES (%(uuid)s, %(org_uuid)s, %(project_uuid)s, %(name)s, %(email)s, %(is_active)s, %(modified_on)s, %(modified_by)s)]
+[Sun Jun 05 17:28:56.706303 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704] [parameters: {'uuid': UUID('4d6b6c66-9399-4efb-8271-89e3ca8469f3'), 'org_uuid': '4a0ef134-bc6e-4961-b97b-35d37300cd40', 'project_uuid': '639be280-8347-4077-85ca-740cd61c5da9', 'name': 'First Recipients', 'email': 'ashwani7jul@gmail.com', 'is_active': True, 'modified_on': 1654360805059, 'modified_by': '4a0ef134-bc6e-4961-b97b-35d37300cd40'}]
+[Sun Jun 05 17:28:56.706311 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42704] (Background on this error at: https://sqlalche.me/e/14/gkpj)
+[Sun Jun 05 17:35:58.891430 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706] [2022-06-05 17:35:58,889] ERROR in app: Exception on /api/4a0ef134-bc6e-4961-b97b-35d37300cd40/recipient [POST]
+[Sun Jun 05 17:35:58.891487 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706] Traceback (most recent call last):
+[Sun Jun 05 17:35:58.891496 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1802, in _execute_context
+[Sun Jun 05 17:35:58.891503 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     self.dialect.do_execute(
+[Sun Jun 05 17:35:58.891510 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+[Sun Jun 05 17:35:58.891517 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     cursor.execute(statement, parameters)
+[Sun Jun 05 17:35:58.891524 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706] psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "recipient_email_key"
+[Sun Jun 05 17:35:58.891531 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706] DETAIL:  Key (email)=(ashwani7jul@gmail.com) already exists.
+[Sun Jun 05 17:35:58.891537 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706] 
+[Sun Jun 05 17:35:58.891543 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706] 
+[Sun Jun 05 17:35:58.891549 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706] The above exception was the direct cause of the following exception:
+[Sun Jun 05 17:35:58.891589 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706] 
+[Sun Jun 05 17:35:58.891597 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706] Traceback (most recent call last):
+[Sun Jun 05 17:35:58.891603 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+[Sun Jun 05 17:35:58.891610 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     rv = self.dispatch_request()
+[Sun Jun 05 17:35:58.891631 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+[Sun Jun 05 17:35:58.891643 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     return self.view_functions[rule.endpoint](**req.view_args)
+[Sun Jun 05 17:35:58.891650 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask_restful/__init__.py", line 467, in wrapper
+[Sun Jun 05 17:35:58.891657 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     resp = resource(*args, **kwargs)
+[Sun Jun 05 17:35:58.891663 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask/views.py", line 89, in view
+[Sun Jun 05 17:35:58.891669 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     return self.dispatch_request(*args, **kwargs)
+[Sun Jun 05 17:35:58.891675 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+[Sun Jun 05 17:35:58.891682 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     resp = meth(*args, **kwargs)
+[Sun Jun 05 17:35:58.891688 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/xaqsis/manager/xaqsis/auth_manager.py", line 131, in decorated
+[Sun Jun 05 17:35:58.891695 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     return f(*args, **kwargs)
+[Sun Jun 05 17:35:58.891701 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/xaqsis/api/resources/recipient.py", line 91, in post
+[Sun Jun 05 17:35:58.891707 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     db.session.commit()
+[Sun Jun 05 17:35:58.891713 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "<string>", line 2, in commit
+[Sun Jun 05 17:35:58.891719 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 1431, in commit
+[Sun Jun 05 17:35:58.891726 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     self._transaction.commit(_to_root=self.future)
+[Sun Jun 05 17:35:58.891732 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+[Sun Jun 05 17:35:58.891738 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     self._prepare_impl()
+[Sun Jun 05 17:35:58.891745 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+[Sun Jun 05 17:35:58.891751 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     self.session.flush()
+[Sun Jun 05 17:35:58.891757 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 3363, in flush
+[Sun Jun 05 17:35:58.891763 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     self._flush(objects)
+[Sun Jun 05 17:35:58.891769 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 3503, in _flush
+[Sun Jun 05 17:35:58.891776 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     transaction.rollback(_capture_exception=True)
+[Sun Jun 05 17:35:58.891787 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+[Sun Jun 05 17:35:58.891794 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     compat.raise_(
+[Sun Jun 05 17:35:58.891800 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+[Sun Jun 05 17:35:58.891807 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     raise exception
+[Sun Jun 05 17:35:58.891813 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 3463, in _flush
+[Sun Jun 05 17:35:58.891819 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     flush_context.execute()
+[Sun Jun 05 17:35:58.891825 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+[Sun Jun 05 17:35:58.891832 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     rec.execute(self)
+[Sun Jun 05 17:35:58.891838 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+[Sun Jun 05 17:35:58.891844 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     util.preloaded.orm_persistence.save_obj(
+[Sun Jun 05 17:35:58.891850 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 244, in save_obj
+[Sun Jun 05 17:35:58.891857 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     _emit_insert_statements(
+[Sun Jun 05 17:35:58.891863 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1221, in _emit_insert_statements
+[Sun Jun 05 17:35:58.891870 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     result = connection._execute_20(
+[Sun Jun 05 17:35:58.891876 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1614, in _execute_20
+[Sun Jun 05 17:35:58.891882 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     return meth(self, args_10style, kwargs_10style, execution_options)
+[Sun Jun 05 17:35:58.891889 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+[Sun Jun 05 17:35:58.891895 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     return connection._execute_clauseelement(
+[Sun Jun 05 17:35:58.891901 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1481, in _execute_clauseelement
+[Sun Jun 05 17:35:58.891908 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     ret = self._execute_context(
+[Sun Jun 05 17:35:58.891914 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1845, in _execute_context
+[Sun Jun 05 17:35:58.891920 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     self._handle_dbapi_exception(
+[Sun Jun 05 17:35:58.891936 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 2026, in _handle_dbapi_exception
+[Sun Jun 05 17:35:58.891943 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     util.raise_(
+[Sun Jun 05 17:35:58.891949 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+[Sun Jun 05 17:35:58.891956 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     raise exception
+[Sun Jun 05 17:35:58.891962 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1802, in _execute_context
+[Sun Jun 05 17:35:58.891968 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     self.dialect.do_execute(
+[Sun Jun 05 17:35:58.891974 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+[Sun Jun 05 17:35:58.891981 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706]     cursor.execute(statement, parameters)
+[Sun Jun 05 17:35:58.891987 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706] sqlalchemy.exc.IntegrityError: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "recipient_email_key"
+[Sun Jun 05 17:35:58.891994 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706] DETAIL:  Key (email)=(ashwani7jul@gmail.com) already exists.
+[Sun Jun 05 17:35:58.892000 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706] 
+[Sun Jun 05 17:35:58.892007 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706] [SQL: INSERT INTO recipient (uuid, org_uuid, project_uuid, name, email, is_active, modified_on, modified_by) VALUES (%(uuid)s, %(org_uuid)s, %(project_uuid)s, %(name)s, %(email)s, %(is_active)s, %(modified_on)s, %(modified_by)s)]
+[Sun Jun 05 17:35:58.892014 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706] [parameters: {'uuid': UUID('0dc8e6ae-3236-406b-a4b1-1caf161b8421'), 'org_uuid': '4a0ef134-bc6e-4961-b97b-35d37300cd40', 'project_uuid': '639be280-8347-4077-85ca-740cd61c5da9', 'name': 'First Recipients', 'email': 'ashwani7jul@gmail.com', 'is_active': True, 'modified_on': 1654360805059, 'modified_by': '4a0ef134-bc6e-4961-b97b-35d37300cd40'}]
+[Sun Jun 05 17:35:58.892022 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42706] (Background on this error at: https://sqlalche.me/e/14/gkpj)
+[Sun Jun 05 17:36:50.237809 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708] [2022-06-05 17:36:50,236] ERROR in app: Exception on /api/4a0ef134-bc6e-4961-b97b-35d37300cd40/recipient [POST]
+[Sun Jun 05 17:36:50.237871 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708] Traceback (most recent call last):
+[Sun Jun 05 17:36:50.237881 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1802, in _execute_context
+[Sun Jun 05 17:36:50.237888 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     self.dialect.do_execute(
+[Sun Jun 05 17:36:50.237894 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+[Sun Jun 05 17:36:50.237901 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     cursor.execute(statement, parameters)
+[Sun Jun 05 17:36:50.237920 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708] psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "recipient_email_key"
+[Sun Jun 05 17:36:50.237927 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708] DETAIL:  Key (email)=(yadavanvi202019@gmail.com) already exists.
+[Sun Jun 05 17:36:50.237933 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708] 
+[Sun Jun 05 17:36:50.237939 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708] 
+[Sun Jun 05 17:36:50.237945 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708] The above exception was the direct cause of the following exception:
+[Sun Jun 05 17:36:50.237951 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708] 
+[Sun Jun 05 17:36:50.237957 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708] Traceback (most recent call last):
+[Sun Jun 05 17:36:50.237963 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+[Sun Jun 05 17:36:50.237970 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     rv = self.dispatch_request()
+[Sun Jun 05 17:36:50.237976 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+[Sun Jun 05 17:36:50.237982 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     return self.view_functions[rule.endpoint](**req.view_args)
+[Sun Jun 05 17:36:50.237988 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask_restful/__init__.py", line 467, in wrapper
+[Sun Jun 05 17:36:50.237995 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     resp = resource(*args, **kwargs)
+[Sun Jun 05 17:36:50.238001 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask/views.py", line 89, in view
+[Sun Jun 05 17:36:50.238029 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     return self.dispatch_request(*args, **kwargs)
+[Sun Jun 05 17:36:50.238036 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+[Sun Jun 05 17:36:50.238043 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     resp = meth(*args, **kwargs)
+[Sun Jun 05 17:36:50.238049 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/xaqsis/manager/xaqsis/auth_manager.py", line 131, in decorated
+[Sun Jun 05 17:36:50.238056 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     return f(*args, **kwargs)
+[Sun Jun 05 17:36:50.238062 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/xaqsis/api/resources/recipient.py", line 91, in post
+[Sun Jun 05 17:36:50.238068 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     db.session.commit()
+[Sun Jun 05 17:36:50.238074 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "<string>", line 2, in commit
+[Sun Jun 05 17:36:50.238080 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 1431, in commit
+[Sun Jun 05 17:36:50.238087 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     self._transaction.commit(_to_root=self.future)
+[Sun Jun 05 17:36:50.238097 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+[Sun Jun 05 17:36:50.238104 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     self._prepare_impl()
+[Sun Jun 05 17:36:50.238110 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+[Sun Jun 05 17:36:50.238116 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     self.session.flush()
+[Sun Jun 05 17:36:50.238122 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 3363, in flush
+[Sun Jun 05 17:36:50.238129 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     self._flush(objects)
+[Sun Jun 05 17:36:50.238135 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 3503, in _flush
+[Sun Jun 05 17:36:50.238141 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     transaction.rollback(_capture_exception=True)
+[Sun Jun 05 17:36:50.238147 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+[Sun Jun 05 17:36:50.238154 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     compat.raise_(
+[Sun Jun 05 17:36:50.238160 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+[Sun Jun 05 17:36:50.238166 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     raise exception
+[Sun Jun 05 17:36:50.238172 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 3463, in _flush
+[Sun Jun 05 17:36:50.238179 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     flush_context.execute()
+[Sun Jun 05 17:36:50.238185 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+[Sun Jun 05 17:36:50.238191 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     rec.execute(self)
+[Sun Jun 05 17:36:50.238197 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+[Sun Jun 05 17:36:50.238203 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     util.preloaded.orm_persistence.save_obj(
+[Sun Jun 05 17:36:50.238210 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 244, in save_obj
+[Sun Jun 05 17:36:50.238216 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     _emit_insert_statements(
+[Sun Jun 05 17:36:50.238222 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1221, in _emit_insert_statements
+[Sun Jun 05 17:36:50.238229 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     result = connection._execute_20(
+[Sun Jun 05 17:36:50.238235 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1614, in _execute_20
+[Sun Jun 05 17:36:50.238246 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     return meth(self, args_10style, kwargs_10style, execution_options)
+[Sun Jun 05 17:36:50.238253 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+[Sun Jun 05 17:36:50.238259 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     return connection._execute_clauseelement(
+[Sun Jun 05 17:36:50.238265 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1481, in _execute_clauseelement
+[Sun Jun 05 17:36:50.238272 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     ret = self._execute_context(
+[Sun Jun 05 17:36:50.238278 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1845, in _execute_context
+[Sun Jun 05 17:36:50.238284 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     self._handle_dbapi_exception(
+[Sun Jun 05 17:36:50.238290 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 2026, in _handle_dbapi_exception
+[Sun Jun 05 17:36:50.238297 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     util.raise_(
+[Sun Jun 05 17:36:50.238303 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+[Sun Jun 05 17:36:50.238310 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     raise exception
+[Sun Jun 05 17:36:50.238316 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1802, in _execute_context
+[Sun Jun 05 17:36:50.238322 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     self.dialect.do_execute(
+[Sun Jun 05 17:36:50.238328 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/default.py", line 732, in do_execute
+[Sun Jun 05 17:36:50.238334 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708]     cursor.execute(statement, parameters)
+[Sun Jun 05 17:36:50.238341 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708] sqlalchemy.exc.IntegrityError: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "recipient_email_key"
+[Sun Jun 05 17:36:50.238347 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708] DETAIL:  Key (email)=(yadavanvi202019@gmail.com) already exists.
+[Sun Jun 05 17:36:50.238353 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708] 
+[Sun Jun 05 17:36:50.238360 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708] [SQL: INSERT INTO recipient (uuid, org_uuid, project_uuid, name, email, is_active, modified_on, modified_by) VALUES (%(uuid)s, %(org_uuid)s, %(project_uuid)s, %(name)s, %(email)s, %(is_active)s, %(modified_on)s, %(modified_by)s)]
+[Sun Jun 05 17:36:50.238368 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708] [parameters: {'uuid': UUID('3e6b5b73-ab87-41cc-bb5c-5ec3c5cdeadb'), 'org_uuid': '4a0ef134-bc6e-4961-b97b-35d37300cd40', 'project_uuid': '639be280-8347-4077-85ca-740cd61c5da9', 'name': 'First Recipients', 'email': 'yadavanvi202019@gmail.com', 'is_active': True, 'modified_on': 1654360805059, 'modified_by': '4a0ef134-bc6e-4961-b97b-35d37300cd40'}]
+[Sun Jun 05 17:36:50.238379 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42708] (Background on this error at: https://sqlalche.me/e/14/gkpj)
+[Sun Jun 05 17:38:06.449915 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42716] [2022-06-05 17:38:06,449] ERROR in recipient: {'source': 'recipient', 'message': 'An unexpected error has occured. Please try again later.', 'code': 'UNEXPECTED_ERROR', 'response': 0}
+[Sun Jun 05 17:38:06.450222 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42716] [2022-06-05 17:38:06,450] ERROR in recipient: name 'res_ult' is not defined
+[Sun Jun 05 17:38:52.335305 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42722] [2022-06-05 17:38:52,334] ERROR in recipient: {'source': 'recipient', 'message': 'An unexpected error has occured. Please try again later.', 'code': 'UNEXPECTED_ERROR', 'response': 0}
+[Sun Jun 05 17:38:52.335722 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42722] [2022-06-05 17:38:52,335] ERROR in recipient: name 'res_ult' is not defined
+[Sun Jun 05 17:39:30.057803 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42726] [2022-06-05 17:39:30,057] ERROR in recipient: {'source': 'recipient', 'message': 'An unexpected error has occured. Please try again later.', 'code': 'UNEXPECTED_ERROR', 'response': 0}
+[Sun Jun 05 17:39:30.058302 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42726] [2022-06-05 17:39:30,058] ERROR in recipient: name 'res_ult' is not defined
+[Sun Jun 05 17:39:38.526896 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42730] [2022-06-05 17:39:38,526] ERROR in recipient: {'source': 'recipient', 'message': 'An unexpected error has occured. Please try again later.', 'code': 'UNEXPECTED_ERROR', 'response': 0}
+[Sun Jun 05 17:39:38.527487 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42730] [2022-06-05 17:39:38,527] ERROR in recipient: name 'res_ult' is not defined
+[Sun Jun 05 17:40:09.169452 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42732] [2022-06-05 17:40:09,169] ERROR in recipient: {'source': 'recipient', 'message': 'An unexpected error has occured. Please try again later.', 'code': 'UNEXPECTED_ERROR', 'response': 0}
+[Sun Jun 05 17:40:09.169973 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42732] [2022-06-05 17:40:09,169] ERROR in recipient: name 'res_ult' is not defined
+[Sun Jun 05 17:41:07.436757 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42752] [2022-06-05 17:41:07,436] WARNING in simulation: {'source': 'simulation', 'message': 'Sorry! we could not find a simulation, or you may try creating one', 'code': 1005, 'response': 404}
+[Sun Jun 05 17:42:13.491502 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762] [2022-06-05 17:42:13,483] ERROR in app: Exception on /api/4a0ef134-bc6e-4961-b97b-35d37300cd40/simulation [PUT]
+[Sun Jun 05 17:42:13.491655 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762] Traceback (most recent call last):
+[Sun Jun 05 17:42:13.491676 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1702, in _execute_context
+[Sun Jun 05 17:42:13.491687 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     context = constructor(
+[Sun Jun 05 17:42:13.491698 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/default.py", line 1091, in _init_compiled
+[Sun Jun 05 17:42:13.491709 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     param = {
+[Sun Jun 05 17:42:13.491733 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/default.py", line 1092, in <dictcomp>
+[Sun Jun 05 17:42:13.491748 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     key: processors[key](compiled_params[key])
+[Sun Jun 05 17:42:13.491758 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/sql/sqltypes.py", line 1998, in process
+[Sun Jun 05 17:42:13.491768 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     value = _strict_as_bool(value)
+[Sun Jun 05 17:42:13.491778 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/sql/sqltypes.py", line 1973, in _strict_as_bool
+[Sun Jun 05 17:42:13.491788 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     raise TypeError("Not a boolean value: %r" % value)
+[Sun Jun 05 17:42:13.491797 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762] TypeError: Not a boolean value: True
+[Sun Jun 05 17:42:13.491807 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762] 
+[Sun Jun 05 17:42:13.491816 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762] The above exception was the direct cause of the following exception:
+[Sun Jun 05 17:42:13.491826 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762] 
+[Sun Jun 05 17:42:13.491835 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762] Traceback (most recent call last):
+[Sun Jun 05 17:42:13.491844 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+[Sun Jun 05 17:42:13.491854 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     rv = self.dispatch_request()
+[Sun Jun 05 17:42:13.491864 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+[Sun Jun 05 17:42:13.491874 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     return self.view_functions[rule.endpoint](**req.view_args)
+[Sun Jun 05 17:42:13.491884 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask_restful/__init__.py", line 467, in wrapper
+[Sun Jun 05 17:42:13.491894 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     resp = resource(*args, **kwargs)
+[Sun Jun 05 17:42:13.491905 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask/views.py", line 89, in view
+[Sun Jun 05 17:42:13.491916 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     return self.dispatch_request(*args, **kwargs)
+[Sun Jun 05 17:42:13.491927 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+[Sun Jun 05 17:42:13.491938 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     resp = meth(*args, **kwargs)
+[Sun Jun 05 17:42:13.491948 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/xaqsis/manager/xaqsis/auth_manager.py", line 131, in decorated
+[Sun Jun 05 17:42:13.491959 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     return f(*args, **kwargs)
+[Sun Jun 05 17:42:13.491981 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/xaqsis/api/resources/simulation.py", line 148, in put
+[Sun Jun 05 17:42:13.491992 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     db.session.commit()
+[Sun Jun 05 17:42:13.492002 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "<string>", line 2, in commit
+[Sun Jun 05 17:42:13.492012 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 1431, in commit
+[Sun Jun 05 17:42:13.492023 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     self._transaction.commit(_to_root=self.future)
+[Sun Jun 05 17:42:13.492033 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+[Sun Jun 05 17:42:13.492044 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     self._prepare_impl()
+[Sun Jun 05 17:42:13.492052 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+[Sun Jun 05 17:42:13.492063 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     self.session.flush()
+[Sun Jun 05 17:42:13.492073 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 3363, in flush
+[Sun Jun 05 17:42:13.492082 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     self._flush(objects)
+[Sun Jun 05 17:42:13.492092 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 3503, in _flush
+[Sun Jun 05 17:42:13.492102 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     transaction.rollback(_capture_exception=True)
+[Sun Jun 05 17:42:13.492113 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+[Sun Jun 05 17:42:13.492123 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     compat.raise_(
+[Sun Jun 05 17:42:13.492133 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+[Sun Jun 05 17:42:13.492144 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     raise exception
+[Sun Jun 05 17:42:13.492153 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 3463, in _flush
+[Sun Jun 05 17:42:13.492164 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     flush_context.execute()
+[Sun Jun 05 17:42:13.492174 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+[Sun Jun 05 17:42:13.492183 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     rec.execute(self)
+[Sun Jun 05 17:42:13.492193 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+[Sun Jun 05 17:42:13.492204 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     util.preloaded.orm_persistence.save_obj(
+[Sun Jun 05 17:42:13.492223 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 236, in save_obj
+[Sun Jun 05 17:42:13.492233 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     _emit_update_statements(
+[Sun Jun 05 17:42:13.492243 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1000, in _emit_update_statements
+[Sun Jun 05 17:42:13.492254 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     c = connection._execute_20(
+[Sun Jun 05 17:42:13.492263 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1614, in _execute_20
+[Sun Jun 05 17:42:13.492273 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     return meth(self, args_10style, kwargs_10style, execution_options)
+[Sun Jun 05 17:42:13.492283 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+[Sun Jun 05 17:42:13.492293 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     return connection._execute_clauseelement(
+[Sun Jun 05 17:42:13.492303 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1481, in _execute_clauseelement
+[Sun Jun 05 17:42:13.492314 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     ret = self._execute_context(
+[Sun Jun 05 17:42:13.492324 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1708, in _execute_context
+[Sun Jun 05 17:42:13.492334 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     self._handle_dbapi_exception(
+[Sun Jun 05 17:42:13.492344 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 2026, in _handle_dbapi_exception
+[Sun Jun 05 17:42:13.492359 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     util.raise_(
+[Sun Jun 05 17:42:13.492368 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+[Sun Jun 05 17:42:13.492379 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     raise exception
+[Sun Jun 05 17:42:13.492389 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1702, in _execute_context
+[Sun Jun 05 17:42:13.492399 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     context = constructor(
+[Sun Jun 05 17:42:13.492409 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/default.py", line 1091, in _init_compiled
+[Sun Jun 05 17:42:13.492419 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     param = {
+[Sun Jun 05 17:42:13.492429 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/default.py", line 1092, in <dictcomp>
+[Sun Jun 05 17:42:13.492440 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     key: processors[key](compiled_params[key])
+[Sun Jun 05 17:42:13.492460 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/sql/sqltypes.py", line 1998, in process
+[Sun Jun 05 17:42:13.492471 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     value = _strict_as_bool(value)
+[Sun Jun 05 17:42:13.492482 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/sql/sqltypes.py", line 1973, in _strict_as_bool
+[Sun Jun 05 17:42:13.492492 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762]     raise TypeError("Not a boolean value: %r" % value)
+[Sun Jun 05 17:42:13.492503 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762] sqlalchemy.exc.StatementError: (builtins.TypeError) Not a boolean value: True
+[Sun Jun 05 17:42:13.492513 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762] [SQL: UPDATE simulation SET name=%(name)s, description=%(description)s, is_active=%(is_active)s, modified_by=%(modified_by)s WHERE simulation.uuid = %(simulation_uuid)s]
+[Sun Jun 05 17:42:13.492526 2022] [wsgi:error] [pid 1066123:tid 139895556425472] [remote 159.203.172.63:42762] [parameters: [{'modified_by': 'd686606a-8340-4586-aa89-007bdcb0f9a8', 'is_active': (True,), 'description': 'SIMULATION_TEST Test By Ashwani  vbsa', 'name': ('SIMULATION Monday',), 'simulation_uuid': UUID('77ada08b-0fac-4c39-8dab-1a25c3d9b44b')}]]
+[Sun Jun 05 17:43:21.434419 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764] [2022-06-05 17:43:21,431] ERROR in app: Exception on /api/4a0ef134-bc6e-4961-b97b-35d37300cd40/simulation [PUT]
+[Sun Jun 05 17:43:21.434525 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764] Traceback (most recent call last):
+[Sun Jun 05 17:43:21.434540 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1702, in _execute_context
+[Sun Jun 05 17:43:21.434551 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     context = constructor(
+[Sun Jun 05 17:43:21.434605 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/default.py", line 1091, in _init_compiled
+[Sun Jun 05 17:43:21.434618 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     param = {
+[Sun Jun 05 17:43:21.434627 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/default.py", line 1092, in <dictcomp>
+[Sun Jun 05 17:43:21.434638 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     key: processors[key](compiled_params[key])
+[Sun Jun 05 17:43:21.434648 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/sql/sqltypes.py", line 1998, in process
+[Sun Jun 05 17:43:21.434659 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     value = _strict_as_bool(value)
+[Sun Jun 05 17:43:21.434670 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/sql/sqltypes.py", line 1973, in _strict_as_bool
+[Sun Jun 05 17:43:21.434681 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     raise TypeError("Not a boolean value: %r" % value)
+[Sun Jun 05 17:43:21.434691 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764] TypeError: Not a boolean value: True
+[Sun Jun 05 17:43:21.434701 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764] 
+[Sun Jun 05 17:43:21.434726 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764] The above exception was the direct cause of the following exception:
+[Sun Jun 05 17:43:21.434737 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764] 
+[Sun Jun 05 17:43:21.434746 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764] Traceback (most recent call last):
+[Sun Jun 05 17:43:21.434756 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+[Sun Jun 05 17:43:21.434766 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     rv = self.dispatch_request()
+[Sun Jun 05 17:43:21.434775 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+[Sun Jun 05 17:43:21.434786 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     return self.view_functions[rule.endpoint](**req.view_args)
+[Sun Jun 05 17:43:21.434796 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask_restful/__init__.py", line 467, in wrapper
+[Sun Jun 05 17:43:21.434806 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     resp = resource(*args, **kwargs)
+[Sun Jun 05 17:43:21.434816 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask/views.py", line 89, in view
+[Sun Jun 05 17:43:21.434826 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     return self.dispatch_request(*args, **kwargs)
+[Sun Jun 05 17:43:21.434835 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/flask_restful/__init__.py", line 582, in dispatch_request
+[Sun Jun 05 17:43:21.434845 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     resp = meth(*args, **kwargs)
+[Sun Jun 05 17:43:21.434855 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/xaqsis/manager/xaqsis/auth_manager.py", line 131, in decorated
+[Sun Jun 05 17:43:21.434865 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     return f(*args, **kwargs)
+[Sun Jun 05 17:43:21.434874 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/xaqsis/api/resources/simulation.py", line 148, in put
+[Sun Jun 05 17:43:21.434884 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     db.session.commit()
+[Sun Jun 05 17:43:21.434893 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "<string>", line 2, in commit
+[Sun Jun 05 17:43:21.434903 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 1431, in commit
+[Sun Jun 05 17:43:21.434913 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     self._transaction.commit(_to_root=self.future)
+[Sun Jun 05 17:43:21.434923 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 829, in commit
+[Sun Jun 05 17:43:21.434934 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     self._prepare_impl()
+[Sun Jun 05 17:43:21.434944 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 808, in _prepare_impl
+[Sun Jun 05 17:43:21.434954 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     self.session.flush()
+[Sun Jun 05 17:43:21.434971 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 3363, in flush
+[Sun Jun 05 17:43:21.434983 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     self._flush(objects)
+[Sun Jun 05 17:43:21.434993 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 3503, in _flush
+[Sun Jun 05 17:43:21.435003 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     transaction.rollback(_capture_exception=True)
+[Sun Jun 05 17:43:21.435013 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+[Sun Jun 05 17:43:21.435024 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     compat.raise_(
+[Sun Jun 05 17:43:21.435033 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+[Sun Jun 05 17:43:21.435043 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     raise exception
+[Sun Jun 05 17:43:21.435053 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/session.py", line 3463, in _flush
+[Sun Jun 05 17:43:21.435063 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     flush_context.execute()
+[Sun Jun 05 17:43:21.435073 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+[Sun Jun 05 17:43:21.435084 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     rec.execute(self)
+[Sun Jun 05 17:43:21.435093 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+[Sun Jun 05 17:43:21.435104 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     util.preloaded.orm_persistence.save_obj(
+[Sun Jun 05 17:43:21.435114 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 236, in save_obj
+[Sun Jun 05 17:43:21.435125 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     _emit_update_statements(
+[Sun Jun 05 17:43:21.435135 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1000, in _emit_update_statements
+[Sun Jun 05 17:43:21.435146 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     c = connection._execute_20(
+[Sun Jun 05 17:43:21.435156 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1614, in _execute_20
+[Sun Jun 05 17:43:21.435167 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     return meth(self, args_10style, kwargs_10style, execution_options)
+[Sun Jun 05 17:43:21.435177 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+[Sun Jun 05 17:43:21.435188 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     return connection._execute_clauseelement(
+[Sun Jun 05 17:43:21.435206 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1481, in _execute_clauseelement
+[Sun Jun 05 17:43:21.435216 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     ret = self._execute_context(
+[Sun Jun 05 17:43:21.435226 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1708, in _execute_context
+[Sun Jun 05 17:43:21.435237 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     self._handle_dbapi_exception(
+[Sun Jun 05 17:43:21.435246 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 2026, in _handle_dbapi_exception
+[Sun Jun 05 17:43:21.435257 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     util.raise_(
+[Sun Jun 05 17:43:21.435266 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+[Sun Jun 05 17:43:21.435277 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     raise exception
+[Sun Jun 05 17:43:21.435286 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/base.py", line 1702, in _execute_context
+[Sun Jun 05 17:43:21.435296 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     context = constructor(
+[Sun Jun 05 17:43:21.435306 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/default.py", line 1091, in _init_compiled
+[Sun Jun 05 17:43:21.435316 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     param = {
+[Sun Jun 05 17:43:21.435326 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/engine/default.py", line 1092, in <dictcomp>
+[Sun Jun 05 17:43:21.435336 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     key: processors[key](compiled_params[key])
+[Sun Jun 05 17:43:21.435346 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/sql/sqltypes.py", line 1998, in process
+[Sun Jun 05 17:43:21.435357 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     value = _strict_as_bool(value)
+[Sun Jun 05 17:43:21.435367 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]   File "/var/www/xaqsis/venv/lib64/python3.8/site-packages/sqlalchemy/sql/sqltypes.py", line 1973, in _strict_as_bool
+[Sun Jun 05 17:43:21.435377 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764]     raise TypeError("Not a boolean value: %r" % value)
+[Sun Jun 05 17:43:21.435387 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764] sqlalchemy.exc.StatementError: (builtins.TypeError) Not a boolean value: True
+[Sun Jun 05 17:43:21.435397 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764] [SQL: UPDATE simulation SET name=%(name)s, description=%(description)s, is_active=%(is_active)s, modified_by=%(modified_by)s WHERE simulation.uuid = %(simulation_uuid)s]
+[Sun Jun 05 17:43:21.435409 2022] [wsgi:error] [pid 1066123:tid 139895589996288] [remote 159.203.172.63:42764] [parameters: [{'modified_by': 'd686606a-8340-4586-aa89-007bdcb0f9a8', 'is_active': (True,), 'description': 'SIMULATION_TEST Test By Ashwani  vbsa', 'name': ('SIMULATION Monday',), 'simulation_uuid': UUID('77ada08b-0fac-4c39-8dab-1a25c3d9b44b')}]]
